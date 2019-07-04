@@ -122,32 +122,32 @@ untitled4/fast:
 	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/build
 .PHONY : untitled4/fast
 
-main.obj: main.c.obj
+main3.obj: main3.c.obj
 
-.PHONY : main.obj
+.PHONY : main3.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/main.c.obj
-.PHONY : main.c.obj
+main3.c.obj:
+	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/main3.c.obj
+.PHONY : main3.c.obj
 
-main.i: main.c.i
+main3.i: main3.c.i
 
-.PHONY : main.i
+.PHONY : main3.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/main.c.i
-.PHONY : main.c.i
+main3.c.i:
+	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/main3.c.i
+.PHONY : main3.c.i
 
-main.s: main.c.s
+main3.s: main3.c.s
 
-.PHONY : main.s
+.PHONY : main3.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/main.c.s
-.PHONY : main.c.s
+main3.c.s:
+	$(MAKE) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/main3.c.s
+.PHONY : main3.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... untitled4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... main3.obj
+	@echo ... main3.i
+	@echo ... main3.s
 .PHONY : help
 
 

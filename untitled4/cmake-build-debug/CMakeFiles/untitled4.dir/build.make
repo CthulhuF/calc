@@ -56,27 +56,27 @@ include CMakeFiles/untitled4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled4.dir/flags.make
 
-CMakeFiles/untitled4.dir/main.c.obj: CMakeFiles/untitled4.dir/flags.make
-CMakeFiles/untitled4.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\untitled4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled4.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled4.dir\main.c.obj   -c C:\Users\User\CLionProjects\untitled4\main.c
+CMakeFiles/untitled4.dir/main3.c.obj: CMakeFiles/untitled4.dir/flags.make
+CMakeFiles/untitled4.dir/main3.c.obj: ../main3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\untitled4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled4.dir/main3.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled4.dir\main3.c.obj   -c C:\Users\User\CLionProjects\untitled4\main3.c
 
-CMakeFiles/untitled4.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled4.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\User\CLionProjects\untitled4\main.c > CMakeFiles\untitled4.dir\main.c.i
+CMakeFiles/untitled4.dir/main3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled4.dir/main3.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\User\CLionProjects\untitled4\main3.c > CMakeFiles\untitled4.dir\main3.c.i
 
-CMakeFiles/untitled4.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled4.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\CLionProjects\untitled4\main.c -o CMakeFiles\untitled4.dir\main.c.s
+CMakeFiles/untitled4.dir/main3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled4.dir/main3.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\CLionProjects\untitled4\main3.c -o CMakeFiles\untitled4.dir\main3.c.s
 
 # Object files for target untitled4
 untitled4_OBJECTS = \
-"CMakeFiles/untitled4.dir/main.c.obj"
+"CMakeFiles/untitled4.dir/main3.c.obj"
 
 # External object files for target untitled4
 untitled4_EXTERNAL_OBJECTS =
 
-untitled4.exe: CMakeFiles/untitled4.dir/main.c.obj
+untitled4.exe: CMakeFiles/untitled4.dir/main3.c.obj
 untitled4.exe: CMakeFiles/untitled4.dir/build.make
 untitled4.exe: CMakeFiles/untitled4.dir/linklibs.rsp
 untitled4.exe: CMakeFiles/untitled4.dir/objects1.rsp
